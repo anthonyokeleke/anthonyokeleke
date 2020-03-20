@@ -1,0 +1,31 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Calibri;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+p {
+    background-color: skyblue;
+    padding: 7px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 50vh;
+    min-width: 30vw;
+    background-color: khaki;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+p.Name span, p.Email span, p.Slack span, p.Username span, p.Backend span, p.Frontend span, p.Design span, p.Mobile span {
+    color: rgb(0, 4, 255);
+}
